@@ -17,9 +17,9 @@
 		\author{Robles Flores, Anthony Richard	                (2016056192)}
 		\author{Estrella Palacios, Katherine Lizbeth			(2015050948)}
 		\author{Sosa Bedoya, Sharon Fiorela				(2016054460)}
+		\author{Torres Beltran, Johanna				(2020067849)}
 		\address{Tacna, Perú}
 		
-		\address{Tacna, Perú}
 		
 		\begin{abstract}
 Customer service is defined as a service that the same company provides to the client, in order to interact with it and that can evaluate the services that the organization offers as the product that is within the factors is quality, taste , freshness, presentation and variety; In this way the organization will be able to know if it reached its real purpose that is to satisfy the needs of the client. In this project an application will be developed for the company La Favorita Alimentos S.A.C. located in the city of Tacna and distributor of the Panttony brand, whose objective will be to provide the company with a tool for feedback and qualification of customer service.
@@ -47,8 +47,8 @@ APLICACION ASISTENTE VIRTUAL DE ATENCION AL CLIENTE Y CALIFICACION DE SERVICIOS
 \begin{itemize}
 	\item Estrella Palacios, Katherine Lizbeth
 	\item Robles Flores, Anthony Richard
-	\item Sandoval Blas, Jesus Enrique
-	\item Atahuachi Rivera, Gabriela    
+	\item Sosa Bedoya, Sharon
+	\item Torres Beltran, Johanna    
 \end{itemize}
 
 \section{Planteamiento del problema}
@@ -66,12 +66,12 @@ APLICACION ASISTENTE VIRTUAL DE ATENCION AL CLIENTE Y CALIFICACION DE SERVICIOS
 
 \section{Objetivos}
 	\subsection{General }	
-		Implementar un Sistema de Calificaciones de Atención al Cliente utilizando la herramienta NetBeans y para su conexión a base de datos la herramienta SQL Server.
+		Implementar un Sistema de Calificaciones de Atención al Cliente utilizando la herramienta AndroidStudio y para su conexión a base de datos la herramienta Firebase.
 	\subsection{Específico }	
 
 \begin{itemize}
-	\item Diseñar una base de datos
-	\item Aplicar el paradigma  de la programación y consultas como herencia, conexiones y las variaciones de las consultas en SQL Server.
+	\item Ofrecer una herramienta retroalimentacion para la toma de decisiones.
+	\item Brindar 
 \end{itemize}
 
 
@@ -95,10 +95,11 @@ Una metodología de desarrollo que pertenece a las conocidas como metodologías 
 		Las Herramientas a Utilizar para realizar esta propuesta de Desarrollo son las siguientes :
 		
 	\begin{itemize}
-    \item Android Studio 
-    \item Quertium 
-    \item Lenguaje Java , Xml
-	\item DialogFlow
+   	 \item Android Studio 
+    	\item Quertium 
+    	\item Lenguaje Java , Xml
+    	\item DialogFlow
+	\item Firebase
 	\end{itemize}
 
 
@@ -106,9 +107,10 @@ Una metodología de desarrollo que pertenece a las conocidas como metodologías 
 Version a compilar del Jdk 29 ,minSdkVersion 23
 \\\\
 %https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017%
-\textbf{Mongo DB :} Es un sistema de base de datos NoSQL orientado a documentos de código abierto.
+\textbf{Firebase :} 
 \\
-En lugar de guardar los datos en tablas, tal y como se hace en las bases de datos relacionales, MongoDB guarda estructuras de datos BSON (una especificación similar a JSON) con un esquema dinámico, haciendo que la integración de los datos en ciertas aplicaciones sea más fácil y rápida.
+Firebase fue creada por Google su función principal es desarrollar y facilitar la creación de apps para moviles.
+Es una plataforma digital que se utiliza para facilitar el desarrollo de aplicaciones web o móviles de una forma efectiva, rápida y sencilla, la cual es utilizada por sus diversas funciones como: Google Analytics para firebase, Firebase Realtime Database, Cloud Functions para Firebase.
 \\ \\
 %https://quertium.com/%
 \textbf{Quertium :} Quertium es un servicio diponible para
@@ -125,10 +127,7 @@ XML,La pareja de baile de Java, XML, es un lenguaje de marcas basado en las etiq
 %https://www.makingscience.com/blog/dialogflow-la-herramienta-de-google-para-la-creacion-de-chatbots/%
 \textbf{Dialogflow :} Se trata de una herramienta de creación de chatbots capaz de entender el lenguaje natural y que provee infraestructura para recrear conversaciones y construir diálogos con el fin de interactuar con el usuario de manera fluida. Pertenece a Google desde su compra en septiembre del 2016.
 \\  \\
-Dialogflow destaca entre sus competidores debido al amplio abanico de interfaces de conversación que llega a abarcar: Google Home, wearables, coches, teléfonos, etc. Actualmente soporta más de 14 idiomas y cada vez es más capaz de hacer frente al uso de abreviaturas y fallos ortográficos.
-
-	 	
-	
+Dialogflow destaca entre sus competidores debido al amplio abanico de interfaces de conversación que llega a abarcar: Google Home, wearables, coches, teléfonos, etc. Actualmente soporta más de 14 idiomas y cada vez es más capaz de hacer frente al uso de abreviaturas y fallos ortográficos.	
 	
 	\subsection{Metodología, técnicas usadas }	
 	
@@ -146,19 +145,19 @@ Dialogflow destaca entre sus competidores debido al amplio abanico de interfaces
 	\item Estrella Palacios, Katherine Lizbeth (Programador / Analista)
 	\item Robles Flores, Anthony Richard (Programador / Tester)
 	\item Sosa Bedoya, Sharon Fiorela (Programador / Analista)
+	\item Torres Beltran, Johanna ( Analista / Tester)
 \end{itemize}
 
 \subsection{\textbf{Recursos Materiales y Servicios}}
 \begin{itemize}
-	\item Laptop (3)
+	\item Laptop (4)
 	\item Impresora
 	\item USB
-	\item Impresiòn
 	\item Internet
 \end{itemize}
 	
-\section{Desarrollo de la propuesta)}
-Este aplicativo nace de la necesidad de la empresa PANTONNY en base a la calificacion que tiene el cliente para con la empresa, asi mismo poder tener a la mano un sistema de fidelizacion y de interaccion que permitira al cliente poder conocer las novedades,productos y servicios que PANTONNY ofrece.
+\section{Desarrollo de la propuesta}
+Este aplicativo nace de la necesidad de la empresa PANTONNY en base a la calificación que tiene el cliente para con la empresa, asi mismo poder tener a la mano un sistema de fidelizacion y de interaccion que permitira al cliente poder conocer las novedades,productos y servicios que PANTONNY ofrece.
 \\  \\
 Hay que tomar en cuenta que lo mas importante en una organizacion para que exista productividad  y crecimiento , es hacer que los clientes se sientan lo mas cómodos posible, de aqui nace el sistema donde el cliente en su mano podra tener acceso a diversos servicios que se le incluira a su disposicion.
 
@@ -169,7 +168,7 @@ Hay que tomar en cuenta que lo mas importante en una organizacion para que exist
 \end{itemize}
 \subsection{\textbf{Metodología, técnicas usadas}}
 \begin{itemize}
-	\item Metodologia Scrum
+	\item Metodologia XP
 \end{itemize}
 
 
